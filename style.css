@@ -1,0 +1,16 @@
+.container {
+    margin:5rem auto;
+    width: 500px;
+    height:300px;
+    border:1px solid black;
+    display:flex;
+}
+
+.box {
+    min-width: 2rem;
+    background: #3d2;
+}
+
+.box, .text {
+    flex-grow:1;
+}
